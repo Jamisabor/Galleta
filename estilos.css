@@ -116,3 +116,29 @@ main {
 .redes-sociales .btn-red-social:hover {
 	box-shadow: 0px 0px 50px 10px rgba(0,0,0,.15);
 }
+
+/* ? ----- MEDIA QUERIES ----- */
+@media (max-width: 600px) {
+	.portada .header .logotipo {
+		font-size: 40px;
+	}
+	.portada .header .mensaje {
+		font-size: 20px;
+	}
+	.redes-sociales .btn-red-social {
+		min-width: 75px;
+	}
+	.simply-section {
+		width: 80px;
+		margin: 1.5px;
+		height: 100px;
+	}
+	
+	.simply-amount {
+		font-size: 30px;
+	}
+	
+	.simply-word {
+		font-size: 10px;
+	}
+  }
